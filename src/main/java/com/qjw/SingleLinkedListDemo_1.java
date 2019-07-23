@@ -4,7 +4,7 @@ package com.qjw;
  * @author : qjw
  * @data : 2019/6/20
  */
-public class TestSingleLinkedList {
+public class SingleLinkedListDemo_1 {
     public static void main(String[] args) {
         SingleLinkedList linkedList = new SingleLinkedList();
         linkedList.add2Tail("qjw1");

@@ -9,7 +9,7 @@ package com.qjw;
  * @author : qjw
  * @data : 2019/6/11
  */
-public class Hash {
+public class ConsistentHash_0 {
     public static void main(String[] args) {
 
 
