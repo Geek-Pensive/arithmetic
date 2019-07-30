@@ -47,7 +47,6 @@ public class QuickSort_2 {
             if (arr[ltmp] == base) {
                 rtmp--;
             }
-
         }
 
         // 如果左右临时指针相同，则各走一步
