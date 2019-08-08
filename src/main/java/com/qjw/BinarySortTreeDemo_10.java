@@ -22,7 +22,7 @@ public class BinarySortTreeDemo_10 {
         binarySortTree.delete(9);
         binarySortTree.delete(12);
         binarySortTree.delete(10);
-//        binarySortTree.delete(0);
+        binarySortTree.delete(0);
         binarySortTree.inOrder(binarySortTree.root);
         System.out.println(binarySortTree);
     }
@@ -83,8 +83,7 @@ class BinarySortTree {
         }
         // 3.删除有两颗子树的节点
         else if (target.left != null && target.right != null) {
-            int min = delRightTreeMin(target.right);
-            target.value = min;
+            target.value = delRightTreeMin(target.right);
         }
         // 2.删除只有一颗子树的节点
         else {
